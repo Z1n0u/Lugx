@@ -22,14 +22,15 @@
     display: flex;
     text-align: center;
 }
-.nav_list_item{
+.nav_list_item {
     padding: 0;
     margin: 0;
-}
-.nav_list_item a{
     margin-right: 30px; 
-    text-decoration: none solid;
     letter-spacing:0.25px;
     text-align: left;
+    
+}
+.nav_list_item a{
+    text-decoration: none;
     color: white;
 }

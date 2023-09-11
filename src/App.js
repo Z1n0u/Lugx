@@ -1,16 +1,18 @@
 import './App.css'
 
 
-import {Header , Container, Banner , Footer } from './components/index'
+import {Container} from './components/index'
+import {Header , Banner , Footer } from './Sections/index'
+
 
 const App = () => {
     return (
         <>
             <Header />
             <Container>
-                <Banner/>
+               <Banner/>
             </Container>
-            <Footer />
+            
         </>
     )
 }

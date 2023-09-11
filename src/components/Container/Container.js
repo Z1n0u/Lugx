@@ -1,9 +1,9 @@
 import './Container.css'
 
-const Container = (props) => {
+const Container = ({children}) => {
     return (
         <div>
-            {props.children}
+            {children}
         </div>
     )
 }

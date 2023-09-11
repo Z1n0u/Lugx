@@ -1,0 +1,47 @@
+
+.banner_buttom_card{
+    background-color: #fff;
+    border-radius: 25px;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(25% - 20px); /* Distribute equally with 10px spacing */
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    cursor: pointer;
+    box-shadow: -6px 3px 39px -12px rgba(0,0,0,0.62);
+    -webkit-box-shadow: -6px 3px 39px -12px rgba(0,0,0,0.62);
+    -moz-box-shadow: -6px 3px 39px -12px rgba(0,0,0,0.62);
+}
+.banner_buttom_card:hover .banner_buttom_icon_wrapper{
+    background-color: #ee626b;
+}
+.banner_buttom_card h4{
+    font-weight: 700;
+}
+.banner_buttom_icon{
+    max-width: 100%;
+}
+.banner_buttom_icon_wrapper{
+    background-color: #0071F8;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 70px;
+}
+
+@media screen and (max-width:960px){
+    .banner_buttom_cards{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        translate: 0 90%;
+    }
+}

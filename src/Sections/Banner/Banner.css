@@ -8,6 +8,8 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
 }
 .banner_text_welcome{
     font-size: 20px;
@@ -38,6 +40,7 @@
     display: flex;
     position: relative;
 }
+
 .banner_search input{
     max-width: 450px;
     width: 100%;
@@ -57,6 +60,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.banner_search .btn.btn-primary.btn-large{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .right{
     position: relative;
     max-height: min-content;
@@ -65,9 +73,9 @@
 }
 
 #banner_img {
-    max-width: 100%;
+    /* max-width: 100%; */
     border-radius: 25px;
-    max-width: 350px;
+    min-width: 25px;
 }
 .price{
     display: inline-block;
@@ -93,4 +101,33 @@
     left: -5%;
     background-color: #ee626b;
     border-radius: 50%;
+}
+
+
+.banner_buttom_cards{
+    display: flex;
+    gap: 25px;
+    width: 88%;
+    position: absolute;
+    bottom: 0%;
+    /* left: 0; */
+    translate: 0 60%;
+    
+    /* margin: 0 90px; */
+    /* outline: 1px solid red; */
+}
+
+@media screen and (max-width:1024px){
+    .banner{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+    #banner_img{
+        width: 20rem;
+    }
+    .banner_left_cap{
+        width: 6rem;
+    }
+    
 }

@@ -2,7 +2,7 @@ import './App.css'
 
 
 import {Container} from './components/index'
-import {Header , Banner , Footer } from './Sections/index'
+import {Header , Banner ,TrendingGames , Footer } from './Sections/index'
 
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
             <Header />
             <Container>
                <Banner/>
+               <TrendingGames/>
             </Container>
             
         </>

@@ -1,0 +1,55 @@
+.price{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    flex: 0 1;
+}
+
+.TrendingGames_GamesCard{
+    position: relative;
+    background-color: #EEEEEE;
+    border-radius: 25px;
+    margin: 10px;
+    flex: 1;
+    cursor: pointer;
+}
+.TrendingGames_GamesCard:hover .TrendingGames_GamesCard_content_Title {
+    color: #0071F8;
+    
+}
+.TrendingGames_GamesCard:hover .ShoppingProduct{
+    background-color: #0071F8;
+}
+.TrendingGames_GamesCard_Img{
+    /* object-fit: cover; */
+    width: 100%;
+    border-radius: 25px;
+}
+.TrendingGames_GamesCard_content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem  1rem;
+
+}
+/* .TrendingGames_GamesCard_content_Text{
+} */
+.TrendingGames_GamesCard_content_Text span{
+    color: #7A81A5;
+    font-size: 14px;
+    font-weight: 400;
+}
+.TrendingGames_GamesCard_content_Title{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+.ShoppingProduct{
+    display: inline-block;
+    background-color: #EE626B;
+    height: 40px;
+    width: 40px;
+    line-height: 43px;
+    text-align: center;
+    border-radius: 50%;
+}

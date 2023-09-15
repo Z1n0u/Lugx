@@ -1,0 +1,33 @@
+.TrendingGamesWrapper{
+    padding: 40px 80px;
+    
+}
+.TrendingGamesYaxis{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle{
+    font-size: 15px;
+    font-weight: 700;
+    color: #EE626B;
+    margin: 0;
+}
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 4rem 0;
+
+}
+
+.TrendingGamesTitle_Button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TrendingGames_GamesCardsWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

@@ -11,6 +11,10 @@
     position: relative;
     margin-bottom: 200px;
 }
+.banner.active{
+    padding-top: 138px;
+    
+}
 .banner_text_welcome{
     font-size: 20px;
     font-weight: 500;

@@ -3,7 +3,7 @@ import {FaBagShopping} from 'react-icons/fa6'
 
 function TrendingGamesCard( {price, img , span, title}) {
     return (
-    
+            
                 <div className='TrendingGames_GamesCard'>
                     <span className='price'>{price}</span>
                     <img src={img} className='TrendingGames_GamesCard_Img'></img>

@@ -1,10 +1,9 @@
 import './TrendingGames.css'
 
 import TrendingGamesCard from '../../components/TrendingGamesCards/TrendingGamesCard'
-import Button from '../../components/Button/Button'
 import TrendingGamesCardData from '../../Data/TrendingGamesCardsData'
-
-
+import SectionsSubtitle from '../../components/SectionsSubtitle/SectionsSubtitle'
+import SectionsTitleButton from '../../components/SectionsTitleButton/SectionsTitleButton'
 
 function TrendingGames() {
     const TrendingGamesCards=TrendingGamesCardData.map(card => {
@@ -14,11 +13,8 @@ function TrendingGames() {
   return (
     <div className='TrendingGamesWrapper'>
         <div className='TrendingGamesYaxis'>
-            <h6 className='subtitle'>TRENDING</h6>
-            <div className='TrendingGamesTitle_Button'>
-                <h2 className='title'>Trending Games</h2>
-                <Button buttonStyle={'btn-primary'} buttonSize={'btn-large'} children={'view all'}></Button>
-            </div>
+                <SectionsSubtitle>Trending</SectionsSubtitle>
+                <SectionsTitleButton>Trending Games</SectionsTitleButton>
             <div className='TrendingGames_GamesCardsWrapper'>
                 {TrendingGamesCards}
             </div>

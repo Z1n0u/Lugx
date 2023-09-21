@@ -1,0 +1,38 @@
+.MostPlayed_card{
+    position: relative;
+    background-color: #EEEEEE;
+    border-radius: 25px;
+    margin: 10px;
+    flex: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.MostPlayed_card:hover .MostPlayed_title{
+        color: #0071F8;
+}
+.MostPlayed_img{
+    width: 100%;
+    border-radius: 25px;
+}
+.MostPlayed_Content{
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.MostPlayed_subtitle{
+    color: #7A81A5;
+    font-size: 14px;
+    font-weight: 400;
+}
+.MostPlayed_title{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+.MostPlayed_ButtonWrapper{
+    position: relative;
+    bottom: -20px;
+}

@@ -1,0 +1,17 @@
+.TopCategoriesWrapper{
+    text-align: center;
+    /* align-items: center; */
+    padding: 40px 80px;
+    margin-bottom: 5rem;
+}
+.TopCategories_Title{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom:  2rem;
+}
+.TopCategoriesCardsWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

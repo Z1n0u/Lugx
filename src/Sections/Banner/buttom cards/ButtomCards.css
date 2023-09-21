@@ -38,7 +38,7 @@
 
 @media screen and (max-width:960px){
     .banner_buttom_cards{
-        display: flex;
+        display: none;
         flex-direction: column;
         /* justify-content: center; */
         align-items: center;

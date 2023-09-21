@@ -1,0 +1,16 @@
+.MostPlayedWrapper{
+    padding: 100px 80px;
+    background-color: #F7F7F7;
+    border-radius: 10rem;
+    margin-bottom: 5rem;
+}
+.MostPlayedYaxis{
+    display: flex;
+    flex-direction: column;
+}
+
+.MostPlayed_GamesCardsWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

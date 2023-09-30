@@ -1,0 +1,102 @@
+.GalleryWrapper{
+    position: relative;
+    margin-bottom: 5rem ;
+    /* overflow:hidden; */
+    /* clear:both; */
+    padding: 40px 80px;
+    height: 100vh;
+}
+.GalleryWrapper_inner{
+    position: relative;
+    height: 100%;
+}
+.ourshopcard{
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;  
+    width: min-content;
+    padding: 50px 60px;
+    /* z-index: 1; */
+    position: absolute;
+    /* translate: 0 -50%; */
+    top: 15%;
+    left: 5%;
+}
+.newsletter{
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;  
+    width: max-content;
+    padding: 50px 60px;
+    position: absolute;
+    top: 35%;
+    right: 3rem;
+    /* transform: translateY(50%); */
+}
+.Gallery_search{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.Gallery_search .btn.btn-primary.btn-large{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Gallery_search input{
+    
+    height: 50px;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.GalleryTitle1{
+    font-size: 36px;
+    font-weight: 700;
+    width: 300px;
+}
+.GalleryPARAGRAPH{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4A4A4A;
+    margin-bottom: 4rem;
+}
+.GalleryIMG {
+    position: absolute;
+    /* transform:translateX(-50%); */
+    translate: -50% 0 0;
+    left: 50%;
+}
+.GalleryIMG img{
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 960px) {
+        .GalleryIMG{
+            display: none;
+        }
+        .GalleryWrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .newsletter{
+            position: static;
+            z-index: 0;
+        }
+        .ourshopcard{
+            position: static;
+            z-index: 0;
+        }
+}

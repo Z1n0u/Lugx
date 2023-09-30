@@ -2,7 +2,7 @@ import './App.css'
 
 
 import {Container} from './components/index'
-import {Header , Banner ,TrendingGames ,MostPlayed,TopCategories, Footer } from './Sections/index'
+import {Header , Banner ,TrendingGames ,MostPlayed,TopCategories, Footer, Gallery } from './Sections/index'
 
 
 const App = () => {
@@ -14,7 +14,9 @@ const App = () => {
                <TrendingGames/>
                <MostPlayed/>
                <TopCategories/>
+               <Gallery/>
             </Container>
+            <Footer/>
             
         </>
     )

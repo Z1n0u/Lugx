@@ -4,3 +4,4 @@ export {default as Footer} from './Footer/Footer';
 export {default as TrendingGames} from './TrendingGames/TrendingGames';
 export {default as MostPlayed} from './Most played/MostPlayed';
 export {default as TopCategories} from './TopCategories/TopCategories';
+export {default as Gallery} from './Gallery/Gallery';

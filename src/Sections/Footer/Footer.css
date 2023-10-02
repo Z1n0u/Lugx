@@ -1,9 +1,16 @@
 .footer{
-    background: url('../../assets/images/footer-bg.jpg');
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
 }
 .footer_container{
-    padding: 40px 80px;
-    border-radius: 25px;
+    color: white;
+    background: url('../../assets/images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }

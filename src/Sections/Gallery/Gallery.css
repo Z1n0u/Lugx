@@ -90,13 +90,17 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            height: min-content;
         }
         .newsletter{
-            position: static;
+            position:static;
             z-index: 0;
+            width: min-content;           
         }
         .ourshopcard{
             position: static;
             z-index: 0;
+            width: min-content;
+            margin-bottom: 2rem;
         }
 }
